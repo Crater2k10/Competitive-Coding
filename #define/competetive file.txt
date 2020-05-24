@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define afo(i,a,b) for(int i=a;i<=b;i++) //a->b increasing
+#define dfo(i,a,b) for(int i=a;i>=b;i--)//a->b decreasing
+#define RI(i,n) afo(i,1,n)//1->n
+#define REP(i,n) afo(i,0,(n)-1)// 0->n-1
+#define mini(a,b) a=min(a,b)
+#define maxi(a,b) a=max(a,b)
+#define mp make_pair
+#define pb push_back
+#define st first
+#define nd second
+#define desc greater<int>()
+#define sz(w) (int)w.size()
+#define IOS ios::sync_with_stdio(0); cin.tie(0); cout.tie(0) //use IOS in start
+typedef vector<int> vi;
+typedef long long ll;
+typedef long double ld;
+typedef pair<int,int> pii;
+const int inf=1e9 +5;
+const int nax=1e9 +5;
